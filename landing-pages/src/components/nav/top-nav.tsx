@@ -67,7 +67,7 @@ export function TopNav() {
   }
 
   return (
-    <header className="w-full border-b bg-background">
+    <header className="w-full border-b bg-background sticky top-0 z-50">
       <div
         ref={containerRef}
         className="relative mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
